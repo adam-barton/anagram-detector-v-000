@@ -13,7 +13,7 @@ class Anagram
       # a = []
       # a << word.split("")
       # a.flatten
-      item.split("").sort == a.split("").sort
+      item.split("").sort == word.split("").sort
       end
 
   end
