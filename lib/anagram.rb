@@ -14,8 +14,7 @@ class Anagram
        a << word.split("")
        a.flatten
       item.split("").sort == a.split("").sort
-  
-    end
+      end
 
   end
   
