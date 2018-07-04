@@ -10,10 +10,10 @@ class Anagram
   
   def match(list)
     a = []
-    word.
+    a << word.split("").flatten
     list.select do |item|
-      item.split("").sort == word.split.sort
-    binding.pry
+      item.split("").sort == a.split.sort
+    #binding.pry
     end
 
   end
