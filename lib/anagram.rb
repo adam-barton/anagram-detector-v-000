@@ -9,8 +9,7 @@ class Anagram
   end
   
   def match(list)
-      binding.pry
-    list.select do |item|
+        list.select do |item|
        a = []
        a << word.split("")
        a.flatten
